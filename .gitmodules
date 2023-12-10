@@ -1,0 +1,6 @@
+[submodule "tech-website"]
+	path = tech-website
+	url = https://github.com/Aaron-Cunningham/tech-website.git
+[submodule "Translator-webapp"]
+	path = Translator-webapp
+	url = https://github.com/Aaron-Cunningham/Translator-webapp.git

@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}
+
+
+.nav {
+  background-color: #ff4500;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+
+.icons{
+  vertical-align: middle;
+}
+
+
+.image--travel {
+  height: 290px;
+  width: 250px;
+  border-radius: 10px;
+
+}
+
+.card{
+  display: flex;
+  position: relative;
+  margin: 40px;
+  border-radius: 10px;
+  align-items: center; 
+}
+
+.card--content{
+  padding: 20px;
+}
+
+.card--content > h1 {
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.card--container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}

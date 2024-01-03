@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", "Ride", sans-serif;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25%;
+    align-items: center;
+    background-color: #ffff;
+
+}
+
+
+.nav-items{
+    list-style: none;
+}
+
+
+.nav-items li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: black;
+}
+
+.sign-up-btn{
+    cursor: pointer;
+    margin:auto;
+    border: none;
+    padding: 9px 25px;
+    background-color: #EE7F00;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4px; 
+    background-color: #EE7F00; 
+}
+
+
+
